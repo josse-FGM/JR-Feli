@@ -6,17 +6,26 @@
                 margin: 0;
             }
             image{
-            
                 max-width: max-content;
                 vertical-align: top;
+                /*display: none;*/
             }
+            img#responsive{
+                display: none;
+            }
+            @media screen and (max-width:768px){
+                img#responsive{
+                display: block;
+            }
+        }
 
         </style>
     </head>
     <body>
+        <img src="foteer.jpg" alt="" id ="responsive">
         <img src="header.jpg" alt="">
         <img src="hero.jpg"alt="">
         <img src="helo.jpg" alt="">
-        <img src="clasica.jpg" alt="">
+     
     </body>
 </html>
